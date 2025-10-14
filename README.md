@@ -294,7 +294,7 @@ For support or questions, open an issue in this repository or contact the develo
 
 **Team Members:**
 - **Gavin Soares** - [GitHub](https://github.com/gavin100305)
-- **Ankit Kumar** - [GitHub](https://github.com/ankit935686)
+- **Ankit Satpute** - [GitHub](https://github.com/ankit935686)
 - **Alok Sinha** - [GitHub](https://github.com/aloksinha123)
 
 <div align="center">
