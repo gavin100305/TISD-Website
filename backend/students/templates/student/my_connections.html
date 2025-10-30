@@ -596,13 +596,13 @@
             </div>
 
             <div class="action-buttons">
-                <a href="{% url 'send_message' connection.mentor.user.id %}" class="btn btn-message">
+                <a href="" class="btn btn-message">
                     <i class="fas fa-comment"></i> Message
                 </a>
                 <a href="{% url 'schedule_meeting' connection.mentor.id %}" class="btn btn-schedule">
                     <i class="fas fa-calendar-alt"></i> Schedule Meeting
                 </a>
-                <form method="POST" action="{% url 'cancel_connection' connection.id %}" class="inline" onsubmit="return confirm('Are you sure you want to cancel this mentor connection?');">
+                <form method="POST" action="" class="inline" onsubmit="return confirm('Are you sure you want to cancel this mentor connection?');">
                     {% csrf_token %}
                     <button type="submit" class="btn btn-cancel">
                         <i class="fas fa-times"></i> Cancel Connection
